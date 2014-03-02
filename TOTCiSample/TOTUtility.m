@@ -12,7 +12,8 @@
 
 + (int)sum:(int)x  with:(int) y
 {
-    return x + y;
+    // わざとテストが通らないようにするテスト。
+    return x;
 }
 
 @end
