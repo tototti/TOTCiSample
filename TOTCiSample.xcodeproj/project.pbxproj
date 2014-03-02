@@ -20,7 +20,7 @@
 		323FFA9318C302A400413E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323FFA7218C302A300413E72 /* Foundation.framework */; };
 		323FFA9418C302A400413E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323FFA7618C302A300413E72 /* UIKit.framework */; };
 		323FFA9C18C302A400413E72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 323FFA9A18C302A400413E72 /* InfoPlist.strings */; };
-		323FFA9E18C302A400413E72 /* TOTCiSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323FFA9D18C302A400413E72 /* TOTCiSampleTests.m */; };
+		323FFA9E18C302A400413E72 /* TOTUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323FFA9D18C302A400413E72 /* TOTUtilityTests.m */; };
 		323FFAA918C3035400413E72 /* TOTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 323FFAA818C3035400413E72 /* TOTUtility.m */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		323FFA9118C302A400413E72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		323FFA9918C302A400413E72 /* TOTCiSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TOTCiSampleTests-Info.plist"; sourceTree = "<group>"; };
 		323FFA9B18C302A400413E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		323FFA9D18C302A400413E72 /* TOTCiSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOTCiSampleTests.m; sourceTree = "<group>"; };
+		323FFA9D18C302A400413E72 /* TOTUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOTUtilityTests.m; sourceTree = "<group>"; };
 		323FFAA718C3035400413E72 /* TOTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTUtility.h; sourceTree = "<group>"; };
 		323FFAA818C3035400413E72 /* TOTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,7 +142,7 @@
 		323FFA9718C302A400413E72 /* TOTCiSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				323FFA9D18C302A400413E72 /* TOTCiSampleTests.m */,
+				323FFA9D18C302A400413E72 /* TOTUtilityTests.m */,
 				323FFA9818C302A400413E72 /* Supporting Files */,
 			);
 			path = TOTCiSampleTests;
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323FFA9E18C302A400413E72 /* TOTCiSampleTests.m in Sources */,
+				323FFA9E18C302A400413E72 /* TOTUtilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +467,7 @@
 				323FFAA318C302A400413E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		323FFAA418C302A400413E72 /* Build configuration list for PBXNativeTarget "TOTCiSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				323FFAA618C302A400413E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

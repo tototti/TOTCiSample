@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "TOTUtility.h"
 
-@interface TOTCiSampleTests : XCTestCase
+@interface TOTUtilityTests : XCTestCase
 
 @end
 
-@implementation TOTCiSampleTests
+@implementation TOTUtilityTests
 
 - (void)setUp
 {
@@ -27,12 +27,20 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSum
 {
     int a = 1;
     int b = 1;
     int answer = [TOTUtility sum:a with:b];
     XCTAssertEqual(a+b, answer, @"error TOTUtility sum");
+}
+
+- (void)testSum2
+{
+    int a = 100;
+    int b = -100;
+    int answer = [TOTUtility sum:a with:b];
+    XCTAssertEqual(a+b, answer, @"error TOTUtility sum2");
 }
 
 @end
