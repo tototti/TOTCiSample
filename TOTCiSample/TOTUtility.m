@@ -10,10 +10,10 @@
 
 @implementation TOTUtility
 
-+ (int)sum:(int)x  with:(int) y
++ (int)sum:(int)x with:(int) y
 {
-    // わざとテストが通らないようにするテスト。
-    return x;
+    // 修正。
+    return x + y;
 }
 
 @end
